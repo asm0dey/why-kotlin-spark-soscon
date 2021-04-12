@@ -4,7 +4,7 @@ theme: gaia
 size: 4K
 class: default
 paginate: true
-footer: @asm0di0 &emsp13;&emsp13;@jbaruch
+footer: '![](images/twitter_24.png) [asm0di0](https://twitter.com/asm0di0)'
 backgroundImage: "linear-gradient(to bottom, #000 0%, #1a2028 50%, #293845 100%)"
 color: white
 title: Why Did We Create New API for Apache Spark
@@ -27,4 +27,6 @@ footer {
 # Why Did We Create Kotlin API for Apache Spark
 
 Pasha Finkelshteyn, JetBrains
+
+---
 
