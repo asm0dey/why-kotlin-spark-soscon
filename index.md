@@ -7,7 +7,7 @@ paginate: true
 footer: @asm0di0 &emsp13;&emsp13;@jbaruch
 backgroundImage: "linear-gradient(to bottom, #000 0%, #1a2028 50%, #293845 100%)"
 color: white
-title: Noname
+title: Why Did We Create New API for Apache Spark
 ---
 <!--
 _class: lead
@@ -24,5 +24,7 @@ footer {
 .hljs-params { color: lightpink }
 </style>
 
-# Name
+# Why Did We Create Kotlin API for Apache Spark
+
+Pasha Finkelshteyn, JetBrains
 
