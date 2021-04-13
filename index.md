@@ -66,7 +66,7 @@ Developer :avocado: for Big Data @ JetBrains
 - Kotlin
 - Scala
 - Groovy
-- bash, XML, YAML
+- bash, XML, YAML :smile:
 
 Sparse experience with other languages
 
@@ -76,5 +76,131 @@ Sparse experience with other languages
 
 - Core Java
 - GC
+- Lots of debug experience
 - Distributed systems
 - Architecture
+
+---
+
+# Supported languages
+
+![bg height:250](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg) ![bg height:250](images/scala.svg) ![bg height:250](images/java.svg) ![bg height:250](images/r.svg)
+
+---
+<!-- _class: lead -->
+# ![height:300](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg)
+
+### The most popular language in data engineering
+
+---
+
+![bg fit](images/spark1.png)
+
+---
+
+![bg fit](images/spark2.png)
+
+---
+
+![bg fit](images/spark3.png)
+
+---
+
+![bg fit](images/spark4.png)
+
+---
+
+# Python
+
+* `F` is made to distinct Spark built-ins from self-made.
+  Who have ever created their own function over column?
+* API is untyped
+* Everything is string-based
+* `UDF`s are SLOW
+* Custom type support is complex
+
+---
+
+![bg fit](images/py4j.png)
+
+---
+<style scoped>
+p > img {
+    display: block;
+    margin: auto;
+}
+</style>
+# Python
+
+![width:980](images/pydq.png)
+
+---
+
+<!-- _class: lead -->
+
+# <!-- fit --> Scala
+
+---
+
+# The best* official API
+
+- Typed and untyped APIs
+- Awesome smart encoders
+- Spark is written in Scala:
+    - Best interop possible
+- Huge ecosystem
+
+<small>* by my own rating among official APIs</small>
+
+---
+
+# The hard parts
+
+![width:1140](images/implicit.png)
+
+---
+
+# The hard parts
+
+![width:1140](images/types.png)
+
+---
+
+# The hard parts
+
+![width:1140](images/zulimba.png)
+
+---
+
+# The hard parts
+
+- Hard to learn for people without JVM knowledge
+- Hard to read code somebody else wrote
+- Easy to abuse language features
+    - operator overloading
+    - implicit
+    - traits
+
+---
+<!-- _class: lead -->
+# Scala's type system is awesome and powerful!
+
+---
+
+<!-- _class: lead -->
+# Scala's type system is awesome and powerful!
+
+Yes, but even Spark doesn't utilize it's full power
+
+---
+
+<!-- _class: lead -->
+# Scala's type system is awesome and powerful!
+
+Yes, but even Spark doesn't utilize it's full power
+
+For the greater good
+
+---
+
+
