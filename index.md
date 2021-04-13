@@ -311,5 +311,87 @@ p > img {
 - There are ideas on deprecating SparkR
 - There always will be performance gap between native (JVM) and other languages
 
+---
 
+![bg height:650](images/kotlin.png)
 
+---
+
+# Null-aware type system
+![](images/types-hier.png)
+
+---
+
+# Extension methods 
+
+```kotlin
+fun Iterable<Int>.sum() = reduce { a, b -> a + b }
+```
+
+---
+
+# Extension methods 
+
+```kotlin
+fun Iterable<Int>.sum() = reduce { a, b -> a + b }
+```
+
+This :arrow_up: already exists in stdlib
+
+---
+
+# Join them together
+
+Scala:
+
+```scala
+payment.join(customer, Seq("customerId"), "left_outer")
+```
+
+A bit later:
+
+```scala
+.map { _._2.id }
+```
+
+---
+
+<!-- _class: lead -->
+
+# <!-- fit --> `NullPointerException`:heart:
+
+Because Java has unique exception for everything.
+
+---
+
+# We can do better
+
+Kotlin:
+
+```kotlin
+payment.leftJoin(customer, col("customerId"))
+```
+
+A bit later
+
+```kotlin
+.map { it.second.id }
+```
+This :arrow_up: won't compile!
+
+---
+
+# We can do better
+
+Kotlin:
+
+```kotlin
+payment.leftJoin(customer, col("customerId"))
+```
+
+A bit later
+
+```kotlin
+.map { it.second.id? }
+```
+This :arrow_up: will!
