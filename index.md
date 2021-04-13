@@ -203,4 +203,113 @@ For the greater good
 
 ---
 
+# Objects in Spark
+
+![width:1200](images/objects1.png)
+
+---
+
+# Objects in Spark
+
+![width:1200](images/objects2.png)
+
+---
+
+# Objects in Spark
+
+![width:1200](images/objects3.png)
+
+---
+
+# Objects in Spark
+
+![width:1200](images/objects4.png)
+
+---
+
+# Objects in Spark
+
+![width:1200](images/objects5.png)
+
+---
+
+# Objects in Spark
+
+![width:1200](images/objects6.png)
+
+---
+
+# Everything is expression
+
+- `NewInstance`
+- `ObjectType`
+- `If`
+- `IsNull`
+- `Literal`
+
+**Type safety is not silver bullet**
+
+---
+
+# <!-- fit --> Java
+
+---
+
+<style scoped>
+p > img {
+    display: block;
+    margin: auto;
+}
+</style>
+
+# Java 
+
+![bg fit](images/java.png)
+
+---
+<style scoped>
+p > img {
+    display: block;
+    margin: auto;
+}
+</style>
+
+<!-- # Java is verbose -->
+
+![bg](images/encoders.png)
+
+---
+<!-- _class: lead -->
+# <!-- fit --> Java is verbose
+
+---
+
+<!-- _class: lead -->
+# <!-- fit --> R
+
+
+---
+
+# R is hard
+![bg fit](images/rdf1.png)
+
+---
+
+# R is hard
+![bg fit](images/rdf2.png)
+
+---
+
+# R is hard
+![bg fit](images/rdf3.png)
+
+
+---
+
+# Thoughts on R
+
+- There are ideas on deprecating SparkR
+- There always will be performance gap between native (JVM) and other languages
+
+
 
