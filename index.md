@@ -255,24 +255,13 @@ For the greater good
 
 ---
 
-<style scoped>
-p > img {
-    display: block;
-    margin: auto;
-}
-</style>
+<!-- _class: lead -->
 
-# Java 
+# Java is verbose
 
-![bg fit](images/java.png)
+![bg right:60%](images/java.png)
 
 ---
-<style scoped>
-p > img {
-    display: block;
-    margin: auto;
-}
-</style>
 
 <!-- # Java is verbose -->
 
