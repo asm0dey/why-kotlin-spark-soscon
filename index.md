@@ -484,8 +484,34 @@ This :arrow_up: will!
 
 # Kotlin for Spark benefits
 
+- Easy to read
 - No encoders
-- Scala-like API
-- Extension methods and DSL helpers
 - Null-safety
+- Extension methods and DSL helpers
+- Scala-like API
 - Option to opt-out from any "non-native" experience
+- Strong typing
+
+---
+
+# Things to improve
+
+- ML support
+- Better syntax for `UDF`s
+- More audience
+- More extensions
+- Scala 3 (?)
+
+---
+<!-- 
+_class: lead
+_footer: "" 
+_paginate: false
+-->
+# <!-- fit --> [github.com/JetBrains/kotlin-spark-api](github.com/JetBrains/kotlin-spark-api)
+
+# Thank you! ![height:45](images/kotlin.png)
+
+Pasha Finkelshteyn, JetBrains
+
+![](images/twitter_24.png) [asm0di0](https://twitter.com/asm0di0)
