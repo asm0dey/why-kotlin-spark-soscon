@@ -84,7 +84,7 @@ Sparse experience with other languages
 
 # Supported languages
 
-![bg height:250](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg) ![bg height:250](images/scala.svg) ![bg height:250](images/java.svg) ![bg height:250](images/r.svg)
+![bg height:250](images/python.png) ![bg height:250](images/scala.png) ![bg height:250](images/java.svg) ![bg height:250](images/r.png)
 
 ---
 <!-- _class: lead -->
@@ -392,6 +392,100 @@ payment.leftJoin(customer, col("customerId"))
 A bit later
 
 ```kotlin
-.map { it.second.id? }
+.map { it.second?.id }
 ```
 This :arrow_up: will!
+
+---
+
+# DSL-building capabilities
+
+![bg fit](images/dsl1.png)
+
+---
+
+# DSL-building capabilities
+
+![bg fit](images/dsl2.png)
+
+---
+
+# DSL-building capabilities
+
+![bg fit](images/dsl3.png)
+
+---
+
+# DSL-building capabilities
+
+![bg fit](images/dsl4.png)
+
+---
+
+# DSL-building capabilities
+
+![bg fit](images/dsl5.png)
+
+---
+
+# DSL-building capabilities
+
+![bg fit](images/dsl6.png)
+
+---
+
+# Correct caching
+
+![bg fit](images/cache1.png)
+
+---
+
+# Correct caching
+
+![bg fit](images/cache2.png)
+
+---
+
+# `withSpark`
+
+![bg fit](images/withspark1.png)
+
+---
+
+# `withSpark`
+
+![bg fit](images/withspark2.png)
+
+---
+
+# `withSpark`
+
+![bg fit](images/withspark3.png)
+
+---
+
+# `withSpark`
+
+![bg fit](images/withspark4.png)
+
+---
+
+# `withSpark` signature
+
+![bg fit](images/withspark.png)
+
+---
+
+# `withSpark` signature
+
+![bg fit](images/withspark_sign2.png)
+
+---
+
+# Kotlin for Spark benefits
+
+- No encoders
+- Scala-like API
+- Extension methods and DSL helpers
+- Null-safety
+- Option to opt-out from any "non-native" experience
