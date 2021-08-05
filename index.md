@@ -59,6 +59,66 @@ Developer :avocado: for Big Data @ JetBrains
 ![bg fit](images/spark.png)
 
 ---
+<style scoped>
+p > img {
+    display: block;
+    margin: auto;
+}
+</style>
+
+# Example
+
+![width:980](images/spark_scala.svg)
+
+---
+<style scoped>
+p > img {
+    display: block;
+    margin: auto;
+}
+</style>
+
+# Example
+
+![width:980](images/spark_scala_2.svg)
+
+---
+<style scoped>
+p > img {
+    display: block;
+    margin: auto;
+}
+</style>
+
+# Example
+
+![width:980](images/spark_scala_3.svg)
+
+---
+<style scoped>
+p > img {
+    display: block;
+    margin: auto;
+}
+</style>
+
+# Example
+
+![width:980](images/spark_scala_4.svg)
+
+---
+<style scoped>
+p > img {
+    display: block;
+    margin: auto;
+}
+</style>
+
+# Example
+
+![width:980](images/spark_scala_5.svg)
+
+---
 
 # What did I have
 

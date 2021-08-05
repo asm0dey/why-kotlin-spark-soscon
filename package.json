@@ -4,15 +4,15 @@
   "main": "index.html",
   "license": "MIT",
   "scripts": {
-    "build": "marp --html index.md",
-    "build-pdf": "marp --html --allow-local-files --pdf index.md",
-    "build-pptx": "marp --html --allow-local-files --pptx index.md",
+    "build": "marp --html --bespoke.progress true index.md",
+    "build-pdf": "marp --html --allow-local-files --pdf --bespoke.progress true index.md",
+    "build-pptx": "marp --html --allow-local-files --pptx --bespoke.progress true index.md",
     "serve": "marp server --watch index.md",
     "convert": "svgexport"
   },
   "devDependencies": {
-    "@marp-team/marp-cli": "^0.23.3",
-    "@marp-team/marp-core": "^1.5.0",
-    "svgexport": "^0.4.1"
+    "@marp-team/marp-cli": "^1.2.0",
+    "@marp-team/marp-core": "^2.1.0",
+    "svgexport": "^0.4.2"
   }
 }
