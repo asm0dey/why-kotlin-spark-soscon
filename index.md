@@ -24,9 +24,7 @@ footer {
 .hljs-params { color: lightpink }
 </style>
 
-# Why Did We Create Kotlin API for Apache Spark
-
-Pasha Finkelshteyn, JetBrains
+![bg fit](images/1.png)
 
 ---
 
@@ -49,6 +47,35 @@ Developer :avocado: for Big Data @ JetBrains
 - Started to look for data-related projects
 - Started to read about DBs
 - Moved from Team Lead to Data Engineer
+
+---
+
+# Data engineers
+
+Those who build your data pipelines
+And your storage
+
+---
+
+# What did I have
+
+- Java
+- Kotlin
+- Scala
+- Groovy
+- bash, XML, YAML :smile:
+
+Sparse experience with other languages
+
+---
+
+# What did I have
+
+- Core Java
+- GC
+- Lots of debug experience
+- Distributed systems
+- Architecture
 
 ---
 <!-- _class: lead -->
@@ -120,28 +147,6 @@ p > img {
 
 ---
 
-# What did I have
-
-- Java
-- Kotlin
-- Scala
-- Groovy
-- bash, XML, YAML :smile:
-
-Sparse experience with other languages
-
----
-
-# What did I have
-
-- Core Java
-- GC
-- Lots of debug experience
-- Distributed systems
-- Architecture
-
----
-
 # Supported languages
 
 ![bg height:250](images/python.png) ![bg height:250](images/scala.png) ![bg height:250](images/java.svg) ![bg height:250](images/r.png)
@@ -166,10 +171,6 @@ Sparse experience with other languages
 
 ---
 
-![bg fit](images/spark4.png)
-
----
-
 # Python
 
 * `F` is made to distinct Spark built-ins from self-made.
@@ -184,21 +185,10 @@ Sparse experience with other languages
 ![bg fit](images/py4j.png)
 
 ---
-<style scoped>
-p > img {
-    display: block;
-    margin: auto;
-}
-</style>
-# Python
-
-![width:980](images/pydq.png)
-
----
 
 <!-- _class: lead -->
 
-# <!-- fit --> Scala
+![bg fit](images/scala.png)
 
 ---
 
@@ -211,12 +201,6 @@ p > img {
 - Huge ecosystem
 
 <small>* by my own rating among official APIs</small>
-
----
-
-# The hard parts
-
-![width:1140](images/implicit.png)
 
 ---
 
@@ -269,36 +253,6 @@ For the greater good
 
 ---
 
-# Objects in Spark
-
-![width:1200](images/objects2.png)
-
----
-
-# Objects in Spark
-
-![width:1200](images/objects3.png)
-
----
-
-# Objects in Spark
-
-![width:1200](images/objects4.png)
-
----
-
-# Objects in Spark
-
-![width:1200](images/objects5.png)
-
----
-
-# Objects in Spark
-
-![width:1200](images/objects6.png)
-
----
-
 # Everything is expression
 
 - `NewInstance`
@@ -311,7 +265,7 @@ For the greater good
 
 ---
 
-# <!-- fit --> Java
+![bg fit](images/java.svg)
 
 ---
 
@@ -334,7 +288,7 @@ For the greater good
 ---
 
 <!-- _class: lead -->
-# <!-- fit --> R
+![bg fit](images/r.svg)
 
 
 ---
@@ -455,37 +409,7 @@ This :arrow_up: will!
 
 # DSL-building capabilities
 
-![bg fit](images/dsl2.png)
-
----
-
-# DSL-building capabilities
-
-![bg fit](images/dsl3.png)
-
----
-
-# DSL-building capabilities
-
-![bg fit](images/dsl4.png)
-
----
-
-# DSL-building capabilities
-
-![bg fit](images/dsl5.png)
-
----
-
-# DSL-building capabilities
-
 ![bg fit](images/dsl6.png)
-
----
-
-# Correct caching
-
-![bg fit](images/cache1.png)
 
 ---
 
@@ -498,24 +422,6 @@ This :arrow_up: will!
 # `withSpark`
 
 ![bg fit](images/withspark1.png)
-
----
-
-# `withSpark`
-
-![bg fit](images/withspark2.png)
-
----
-
-# `withSpark`
-
-![bg fit](images/withspark3.png)
-
----
-
-# `withSpark`
-
-![bg fit](images/withspark4.png)
 
 ---
 
